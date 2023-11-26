@@ -15,20 +15,26 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
  
                           🤔 E AI? TODOS SABEM O QUE É E QUAIS AS DIFERENÇAS ENTRE O COMBO GIT E GITHUB? 🤔 
 
-  ### Por que esse combo é tão importante?
+  #### Por que esse combo é tão importante?
   * Versionamento;
   * Backup;
   * Colaboração entre pessoas/equipes;
   * Portfólio;
       
-  ### Git:
+  #### Git:
+  * Servidor para versionamento de código;
+  * Criado pelo time da Linux;
   
   #### GitHub:
+  * Plataforma para hospedagem de código;
+  * Permite a colaboração entre pessoas;
+  * Interface amigável;
   
 ### Instalação:
 ### Configuração:
 ### Autenticação via chave SSH:
-### Estados de um arquivo:
+### Repositório Local x Repositório Remoto:
+### Estados de um arquivo no git:
 ### Comandos para iniciar o versionamento:
    #### 1° OPÇÃO:
    #### 2° OPÇÃO:
