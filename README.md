@@ -31,10 +31,27 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
   * Interface amigável;
   
 ### Instalação:
+* Link para instalação:
+
+                                                 https://git-scm.com/download/win
 ### Configuração:
+* Comandos para configuração do usuário:
+  
+1) Configurando o nome de usuário:
+   
+                                     git config --global user.name "Mesmo nome de usuário do GitHub"
+   
+3) Configurando o email do usuário:
+   
+                                           git config --global user.email "abcdef@exemplo.br"
+   
+5) Verificar informações:
+   
+                                                            git config --list
+   
 ### Autenticação via chave SSH:
 ### Repositório Local x Repositório Remoto:
-### Estados de um arquivo no git:
+### Estados dos arquivos:
 ### Comandos para iniciar o versionamento:
    #### 1° OPÇÃO:
    #### 2° OPÇÃO:
