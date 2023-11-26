@@ -12,6 +12,19 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 ## 🛠️ Primeiros Passos: 
 ### Git x GitHub:
+ 
+                          🤔 E AI? TODOS SABEM O QUE É E QUAIS AS DIFERENÇAS ENTRE O COMBO GIT E GITHUB? 🤔 
+
+  ### Por que esse combo é tão importante?
+  * Versionamento;
+  * Backup;
+  * Colaboração entre pessoas/equipes;
+  * Portfólio;
+      
+  ### Git:
+  
+  #### GitHub:
+  
 ### Instalação:
 ### Configuração:
 ### Autenticação via chave SSH:
