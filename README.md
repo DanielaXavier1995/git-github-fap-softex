@@ -62,23 +62,29 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
   
 4) Adicione a chave SSH ao gitHub > New SSH key
      
-![ssh](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/548beeec-c0bf-4aaf-a41d-29c05736f10f)
+![ssh](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/1451e0d8-f013-41fd-8161-63f5e818ffaf)
 
 ### Repositório Local x Repositório Remoto:
 
 * REPOSITÓRIO LOCAL -> Pasta no computador -> .git
 * REPOSITÓRIO REMOTO -> Repositório do GitHub -> palavra reservada ORIGIN (substitui uma URL)
 
-  ![veremos](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/4fd2824e-0863-4dd8-9a4b-1a1898e8cbd0)
-
+![veremos](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/0f36b40f-9c26-4db1-8ff5-6d7e190fa5ce)
 
 ### Estados dos arquivos:
 
+                              🤔 ALGUÉM CONHECE COMO FUNCIONA OS ESTADOS DOS ARQUIVOS NO GIT? 🤔 
 
-![fluxo 2](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/22dd1008-72e0-485b-bfaf-e54c3f960a1e)
+<h1 align="center">
+ 
+![fluxo git](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/c67422cd-0b72-473d-80d6-cd482c36295b)
 
+</h1>
 
-![fluxo git](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/d745a006-8197-4654-842b-adecf05f59b4)
+* Comandos x Mudanças de estado do arquivo:
+
+![fluxo 2](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/e65afa4d-8327-4d99-a3bd-bc2b4d8ae507)
+
 
 
 ### Comandos para iniciar o versionamento:
