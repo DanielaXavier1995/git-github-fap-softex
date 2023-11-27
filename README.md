@@ -13,7 +13,7 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 ## 🛠️ Primeiros Passos: 
 ### Git x GitHub:
  
-                  🤔 E AI? TODOS SABEM O QUE É E QUAIS AS DIFERENÇAS ENTRE O COMBO GIT E GITHUB? 🤔 
+                          🤔 E AI? TODOS SABEM O QUE É E QUAIS AS DIFERENÇAS ENTRE O COMBO GIT E GITHUB? 🤔 
 
   #### Por que esse combo é tão importante?
   * Versionamento;
@@ -33,22 +33,22 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 ### Instalação:
 * Link para instalação:
 
-                  https://git-scm.com/download/win
+                                                 https://git-scm.com/download/win
   
 ### Configuração:
 * Comandos para configuração do usuário:
   
 1) Configurando o nome de usuário:
    
-              git config --global user.name "Mesmo nome de usuário do GitHub"
-   
+                                  git config --global user.name "Mesmo nome de usuário do GitHub"
+    
 3) Configurando o email do usuário:
    
-             git config --global user.email "abcdef@exemplo.br"
+                                       git config --global user.email "abcdef@exemplo.br"
    
 5) Verificar informações:
    
-                         git config --list
+                                                        git config --list
    
 ### Autenticação via chave SSH:
 * Configuração da chave SSH:
