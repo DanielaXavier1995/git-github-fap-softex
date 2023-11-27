@@ -73,6 +73,14 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 
 ### Estados dos arquivos:
+
+
+![fluxo 2](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/22dd1008-72e0-485b-bfaf-e54c3f960a1e)
+
+
+![fluxo git](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/d745a006-8197-4654-842b-adecf05f59b4)
+
+
 ### Comandos para iniciar o versionamento:
    #### 1° OPÇÃO:
    #### 2° OPÇÃO:
