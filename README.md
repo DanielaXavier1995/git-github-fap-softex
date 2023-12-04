@@ -56,25 +56,33 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 1) Vá no menu de opções e click em: settings
 2) Dentro de Settings encontre: SSH and GPG Keys
 3) Entre no link: generating SSH keys
+   
 * Gerando a chave SSH:
+
 
       https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
   
-4) Adicione a chave SSH ao gitHub > New SSH key
+  
+* Adicione a chave SSH ao gitHub > New SSH key
+   
      
 ![ssh](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/1451e0d8-f013-41fd-8161-63f5e818ffaf)
 
+
 ### Repositório Local x Repositório Remoto:
+
 
 * REPOSITÓRIO LOCAL -> Pasta no computador -> .git -> palavra reservada MAIN
 * REPOSITÓRIO REMOTO -> Repositório do seu próprio GitHub -> palavra reservada ORIGIN (substitui uma URL)
-* REPOSITÓRIO REMOTO -> Repositório do GitHub atrelado a outra conta (fork para sua conta) -> palavra reservada UPSTREAM 
+* REPOSITÓRIO REMOTO -> Repositório do GitHub atrelado a outra conta (fork para sua conta) -> palavra reservada UPSTREAM
+  
 
 ![veremos](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/0f36b40f-9c26-4db1-8ff5-6d7e190fa5ce)
 
 ### Estados dos arquivos:
 
                               🤔 ALGUÉM CONHECE COMO FUNCIONA OS ESTADOS DOS ARQUIVOS NO GIT? 🤔 
+                              
 
 <h1 align="center">
  
@@ -82,7 +90,9 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 </h1>
 
+
 * Comandos x Mudanças de estado do arquivo:
+  
 
 ![fluxo 2](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/e65afa4d-8327-4d99-a3bd-bc2b4d8ae507)
 
@@ -95,38 +105,38 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
    1) Criar o repositório local (pasta) com um arquivo;
    2) Criar um repositório git:
       
-                                               git init
+                                                             git init
       
    4) Linkar o repositório local ao remoto:
       
-                           git remote add origin <LINK DO REPOSITÓRIO REMOTO>
+                                        git remote add origin <LINK DO REPOSITÓRIO REMOTO>
 
-         Mostra todos os repositórios remotos atrelados ao meu repositório local:  git remote
+                    Mostra todos os repositórios remotos atrelados ao meu repositório local:  git remote
       
    6) Preparar o commit:
 
-                                          git add <Nome do arquivo> ou git add .
+                                              git add <Nome do arquivo> ou git add .
 
-                                                      git status
+                                                           git status
       
-                                            git commit -m "NOME DO COMMIT"
+                                                 git commit -m "NOME DO COMMIT"
 
-                                                      git status
+                                                          git status
       
    8) Subir o commit:
 
-                                             Local para o remoto:  git push origin main
+                                              Local para o remoto:  git push origin main
 
-                                                 Remoto para o local:  git pull
+                                                   Remoto para o local:  git pull
       
       
    #### 2° OPÇÃO: Baixar um repositório remoto
 
    1) clonar um repositório remoto para o repositório local:
 
-                                    git clone <URL DO REPOSITÓRIO>
+                                                 git clone <URL DO REPOSITÓRIO>
 
-                                             git remote
+                                                          git remote
       
 ### Outros comandos importantes:
 
@@ -140,20 +150,21 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 * Voltar para estados anteriores:
 
-                                Volta para o estado modificado:     git restore <Nome do arquivo>
+                                 Volta para o estado modificado:     git restore <Nome do arquivo>
 
-                                Volta para área de staged:       git restore --staged <Nome do arquivo>
+                              Volta para área de staged:       git restore --staged <Nome do arquivo>
   
 * Voltar para commits anteriores: 
 
              Volta para o commit indicado, ignorando tudo oque foi feito anteriormente (apaga todas as modificações):
                                            git reset --hard <hash do commit>
+  
         Volta para o commit indicado (retorna as modificações para a área de stage permitindo que possam ser commitadas novamente):
                                            git reset --soft <hash do commit>
 
 ### Trabalhando com Branchs: 
 
-                                            🤔 O QUE SÃO AS BRANCHS? 🤔 
+                                               🤔 O QUE SÃO AS BRANCHS? 🤔 
 
 <h1 align="center">
 
@@ -169,15 +180,15 @@ que estou desenvolvendo.
 
 1) Criando a branch de desenvolvimento a partir da main:
 
-                                Para criar e entrar na branch:   git checkout -b "develop"
+                                  Para criar e entrar na branch:   git checkout -b "develop"
 
 2) Subindo modificações para a branch:
 
-                                          git push origin "nome_da_branch"
+                                            git push origin "nome_da_branch"
 
 4) Deletando branchs:
 
-                                           git branch -d "nome_da_branch"
+                                            git branch -d "nome_da_branch"
 
 ### Mesclando branchs:
 
@@ -186,11 +197,11 @@ vai precisar entrar na branch DEVELOP para depois realizar o merge com a FEATURE
 
 1) Entrando em DEVELOP:
 
-                         git checkout "develop"
+                                               git checkout "develop"
 
 2) Merge:
 
-                         git merge "feature"
+                                                git merge "feature"
 
 
 ### Vamos nos conectar?
