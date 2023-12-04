@@ -101,7 +101,7 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
       
                            git remote add origin <LINK DO REPOSITÓRIO REMOTO>
 
-                                            git remote
+         Mostra todos os repositórios remotos atrelados ao meu repositório local:  git remote
       
    6) Preparar o commit:
 
@@ -115,9 +115,9 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
       
    8) Subir o commit:
 
-                                             local para o remoto:  git push origin main
+                                             Local para o remoto:  git push origin main
 
-                                                 remoto para o local:  git pull
+                                                 Remoto para o local:  git pull
       
       
    #### 2° OPÇÃO: Baixar um repositório remoto
@@ -140,17 +140,59 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 * Voltar para estados anteriores:
 
-                                volta para o estado modificado:     git restore <Nome do arquivo>
+                                Volta para o estado modificado:     git restore <Nome do arquivo>
 
-                                volta para área de staged:       git restore --staged <Nome do arquivo>
+                                Volta para área de staged:       git restore --staged <Nome do arquivo>
   
-* Voltar para commits anteriores: ?????//?
+* Voltar para commits anteriores: 
 
-                           volta para o commit indicado, ignorando tudo oque foi feito anteriormente:      git reset --hard <hash do commit>
-              volta para o commit indicado, retornando tudo oque foi feito anteriormente para a área de stage:      git reset --soft <hash do commit>
+             Volta para o commit indicado, ignorando tudo oque foi feito anteriormente (apaga todas as modificações):
+                                           git reset --hard <hash do commit>
+        Volta para o commit indicado (retorna as modificações para a área de stage permitindo que possam ser commitadas novamente):
+                                           git reset --soft <hash do commit>
 
-### Trabalhando com Branchs: ????????
-   
+### Trabalhando com Branchs: 
+
+                                            🤔 O QUE SÃO AS BRANCHS? 🤔 
+
+<h1 align="center">
+
+![branchs](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/c19b7f5e-b9f5-4d54-a609-71913b27d189)
+
+</h1>
+
+### Comandos para trabalhar com branchs:
+
+OBS 1: A branch sempre será criada a partir da branch em que voçê está trabalhando no momento, como no exemplo da imagem acima,
+estando na branch master/main posso criar a branch de desenvolvimento, a partir desta posso criar branchs para as funcionalidades
+que estou desenvolvendo.
+
+1) Criando a branch de desenvolvimento a partir da main:
+
+                                Para criar e entrar na branch:   git checkout -b "develop"
+
+2) Subindo modificações para a branch:
+
+                                          git push origin "nome_da_branch"
+
+4) Deletando branchs:
+
+                                           git branch -d "nome_da_branch"
+
+### Mesclando branchs:
+
+OBS 2: Você sempre deve estar na branch pela qual quer trazer as modificações, exemplo: se você quer mesclar a branch DEVELOP com uma FEATURE
+vai precisar entrar na branch DEVELOP para depois realizar o merge com a FEATURE.
+
+1) Entrando em DEVELOP:
+
+                         git checkout "develop"
+
+2) Merge:
+
+                         git merge "feature"
+
+
 ### Vamos nos conectar?
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/dani-xavier/)
 [![Discord](https://img.shields.io/badge/Discord-000?style=for-the-badge&logo=discord)](https://www.discord.com/in/DanielaXavier#0328/)
