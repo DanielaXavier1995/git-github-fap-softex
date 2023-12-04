@@ -66,7 +66,7 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
 
 ### Repositório Local x Repositório Remoto:
 
-* REPOSITÓRIO LOCAL -> Pasta no computador -> .git
+* REPOSITÓRIO LOCAL -> Pasta no computador -> .git -> palavra reservada MAIN
 * REPOSITÓRIO REMOTO -> Repositório do seu próprio GitHub -> palavra reservada ORIGIN (substitui uma URL)
 * REPOSITÓRIO REMOTO -> Repositório do GitHub atrelado a outra conta (fork para sua conta) -> palavra reservada UPSTREAM 
 
