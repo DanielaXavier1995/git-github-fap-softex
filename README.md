@@ -1,4 +1,4 @@
-# Olá devs 🖐👩🏽‍💻👨🏽‍💻✨
+# Olá devs e devas 🖐👩🏽‍💻👨🏽‍💻✨
 
 Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos amigos Git e GitHub 🤩
 
