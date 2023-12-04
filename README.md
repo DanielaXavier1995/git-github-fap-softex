@@ -146,7 +146,8 @@ Estamos aqui para compartilhar um pouco de conhecimento sobre os nossos queridos
   
 * Voltar para commits anteriores: ?????//?
 
-                           volta para o commit indicado:      git reset --hard <hash do commit>
+                           volta para o commit indicado, ignorando tudo oque foi feito anteriormente:      git reset --hard <hash do commit>
+              volta para o commit indicado, retornando tudo oque foi feito anteriormente para a área de stage:      git reset --soft <hash do commit>
 
 ### Trabalhando com Branchs: ????????
    
