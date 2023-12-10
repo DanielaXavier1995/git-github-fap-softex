@@ -67,7 +67,16 @@ Realizar suas modificações do projeto e enviar para o repositório PRINCIPAL:
                                     git push origin <nome da branch>
 
 ## Resolvendo Conflitos:
-   
+
+                                            git pull origin main 
+
+                              ❗ Voçê deve resolver os conflitos manualmente ❗ 
+
+                                                 git add .
+                                      
+      combinar commits:                   git rebase --continue
+                              
+      forçar o push:                 git push --force origin teste02
 
 
 
