@@ -68,7 +68,7 @@ Realizar suas modificações do projeto e enviar para o repositório PRINCIPAL:
 
 ## Resolvendo Conflitos:
 
-                                            git pull origin main 
+                                            git pull upstream main 
 
                               ❗ Voçê deve resolver os conflitos manualmente ❗ 
 
