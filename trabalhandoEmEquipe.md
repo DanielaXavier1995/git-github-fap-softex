@@ -68,15 +68,19 @@ Realizar suas modificações do projeto e enviar para o repositório PRINCIPAL:
 
 ## Resolvendo Conflitos:
 
+![resolução de conflitos](https://github.com/DanielaXavier1995/git-github-fap-softex/assets/116307469/af8b7f03-b9a4-470b-8148-384a7ecae921)
+
+
                                             git pull upstream main 
 
                               ❗ Voçê deve resolver os conflitos manualmente ❗ 
 
                                                  git add .
                                       
-      combinar commits:                   git rebase --continue
+                                        git commit -m "mensagem"
                               
-      forçar o push:                 git push --force origin teste02
+                                        git push origin nomeDaBranch
+                                    git push --force origin nomeDaBranch
 
 
 
