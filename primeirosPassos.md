@@ -143,6 +143,10 @@
 
         Volta para o commit indicado (retorna as modificações para a área de stage permitindo que possam ser commitadas novamente):
                                            git reset --soft <hash do commit>
+  
+- Atualizando a aplicação:
+
+                                           git push --force <nome-da-branch>
 
 ### Trabalhando com Branchs:
 
