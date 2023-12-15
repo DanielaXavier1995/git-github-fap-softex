@@ -134,8 +134,6 @@
 
 - Voltar para estados anteriores:
 
-                                 Volta para o estado modificado:     git restore <Nome do arquivo>
-
                               Volta para área de staged:       git restore --staged <Nome do arquivo>
 
 - Voltar para commits anteriores:
