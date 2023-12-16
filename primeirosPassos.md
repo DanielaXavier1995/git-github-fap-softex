@@ -130,7 +130,7 @@
 
                                              Histórico de commits resumido:  git reflog
 
-2.  Restaurar commits:
+2.  Restaurar estados do arquivo e commits:
 
 - Voltar para estados anteriores:
   
