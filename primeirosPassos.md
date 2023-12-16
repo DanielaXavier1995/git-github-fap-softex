@@ -133,6 +133,8 @@
 2.  Restaurar commits:
 
 - Voltar para estados anteriores:
+  
+                                 Voltar a modificação:       git restore --staged <Nome do arquivo>
 
                               Volta para área de staged:       git restore --staged <Nome do arquivo>
 
